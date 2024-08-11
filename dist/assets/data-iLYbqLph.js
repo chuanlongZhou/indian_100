@@ -1,0 +1,1 @@
+import{_ as o}from"./Hero-DkMwyXAm.js";import{_ as t,z as e,A as s}from"./index-BKnRETG1.js";const _={};function a(c,r){const n=o;return e(),s(n,{main:"this is data page",sub:"not finished"})}const f=t(_,[["render",a]]);export{f as default};

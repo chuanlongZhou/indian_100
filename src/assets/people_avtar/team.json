@@ -1,0 +1,34 @@
+[
+    {
+      "name": "Philippe Ciais",
+      "title": "Developer",
+      "institute":"LSCE",
+      "description": "Philippe, is science advisor for nexqt. (partner). He is a senior researcher working at Laboratoire des Sciences du Climat et de l’Environnement. He is an internationally recognized expert of the global carbon cycle and greenhouse gases emissions monitoring. He is the author of over a thousand of peer-reviewed publications including many in Nature, Science and high-impact journals (cited 170000 times). He is among the top 1% most-cited scientists in the fields of Geosciences and Ecology.",
+      "photo": "philippe_ciais.jpg",
+      "homeUrl": "https://homepage.com",
+      "scholarUrl": "https://scholar.google.com",
+      "githubUrl": "https://github.com"
+    },
+    {
+      "name": "Chuanlong Zhou",
+      "title": "Developer",
+      "institute":"LSCE",
+      "description": "",
+      "photo": "chuanlong_zhou.png",
+      "homeUrl": "https://homepage.com",
+      "scholarUrl": "https://scholar.google.com",
+      "githubUrl": "https://github.com"
+    },
+    {
+      "name": "Harish C Phuleria",
+      "title": "Developer",
+      "institute":"IIT Bombay",
+      "description": "",
+      "photo": "",
+      "homeUrl": "https://homepage.com",
+      "scholarUrl": "https://scholar.google.com",
+      "githubUrl": "https://github.com"
+    }
+
+  ]
+  
