@@ -1,1 +1,0 @@
-import{_ as o}from"./Hero-pgcmGLRB.js";import{_ as t,z as e,A as s}from"./index-0id-lRD0.js";const _={};function a(c,r){const n=o;return e(),s(n,{main:"this is data page",sub:"not finished"})}const f=t(_,[["render",a]]);export{f as default};

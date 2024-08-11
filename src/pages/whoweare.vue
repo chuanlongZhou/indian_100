@@ -72,7 +72,7 @@
 </template>
 
 <script setup>
-import team from "@/assets/people_avtar/team.json"; // Import the JSON data
+import team from "@/assets/team.json"; // Import the JSON data
 
 const LSCE_team = ref(team.filter((member) => member.institute === "LSCE"));
 const IIT_team = ref(team.filter((member) => member.institute === "IIT Bombay"));

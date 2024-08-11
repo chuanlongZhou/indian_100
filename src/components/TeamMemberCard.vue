@@ -14,7 +14,7 @@
           <v-col cols="4" class="px-5 mb-3">
             <v-avatar 
             :size="isHovering ? '150' : '100'" 
-            :image="'@/assets/people_avtar/'+photo"></v-avatar>
+            :image="'/people_avtar/'+photo"></v-avatar>
           </v-col>
           <v-col cols="7">
             <v-card-title 
@@ -63,7 +63,6 @@ const props = defineProps({
   scholarUrl: String,
   githubUrl: String,
 });
-var panel = ref([0]);
 </script>
   
   <style scoped>
