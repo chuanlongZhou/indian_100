@@ -14,7 +14,7 @@
           <v-col cols="4" class="px-5 mb-3">
             <v-avatar 
             :size="isHovering ? '150' : '100'" 
-            :image="'src/assets/people_avtar/'+photo"></v-avatar>
+            :image="'@/assets/people_avtar/'+photo"></v-avatar>
           </v-col>
           <v-col cols="7">
             <v-card-title 
