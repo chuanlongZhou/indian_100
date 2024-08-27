@@ -3,7 +3,7 @@
   elevation="0"
   >
     <v-row class="pt-4 pb-4">
-      <v-col cols="3" class="text-center">
+      <v-col class="text-center">
         <a href="https://www.lsce.ipsl.fr/" target="_blank">
         <v-img
           src="@/assets/team_logo/lsce.png"
@@ -12,7 +12,7 @@
         ></v-img>
         </a>
       </v-col>
-      <v-col cols="3" class="text-center">
+      <v-col  class="text-center">
         <a href="https://www.iitb.ac.in/" target="_blank">
         <img
           src="@/assets/team_logo/iit.png"
@@ -21,7 +21,25 @@
         />
         </a>
       </v-col>
-      <v-col cols="3" class="text-center">
+      <v-col class="text-center">
+        <a href="https://www.nexqt.com/" target="_blank">
+        <img
+          src="@/assets/team_logo/nexqt.png"
+          alt="Team Logo"
+          class="team-logo"
+        />
+        </a>
+      </v-col>
+      <v-col class="text-center">
+        <a href="https://www.uni-muenster.de/en/" target="_blank">
+        <img
+          src="@/assets/team_logo/Munster.png"
+          alt="Team Logo"
+          class="team-logo"
+        />
+        </a>
+      </v-col>
+      <v-col  class="text-center">
         <a href="https://www.granthamfoundation.org/" target="_blank">
         <v-img
           src="@/assets/team_logo/grantham-foundation-h-ko.png"

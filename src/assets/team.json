@@ -1,34 +1,146 @@
 [
     {
       "name": "Philippe Ciais",
-      "title": "Developer",
+      "title": "Principal Investigator",
       "institute":"LSCE",
       "description": "Philippe, is science advisor for nexqt. (partner). He is a senior researcher working at Laboratoire des Sciences du Climat et de l’Environnement. He is an internationally recognized expert of the global carbon cycle and greenhouse gases emissions monitoring. He is the author of over a thousand of peer-reviewed publications including many in Nature, Science and high-impact journals (cited 170000 times). He is among the top 1% most-cited scientists in the fields of Geosciences and Ecology.",
       "photo": "philippe_ciais.jpg",
-      "homeUrl": "https://homepage.com",
-      "scholarUrl": "https://scholar.google.com",
-      "githubUrl": "https://github.com"
+      "email": "philippe.ciais@lsce.ipsl.fr",
+      "homeUrl": "https://www.lsce.ipsl.fr/en/cycles-transferts/mosaic/pisp/philippe-ciais/",
+      "scholarUrl": "https://scholar.google.com/citations?hl=en&user=PJhqfAoAAAAJ",
+      "githubUrl": ""
     },
     {
       "name": "Chuanlong Zhou",
-      "title": "Developer",
+      "title": "Investigator",
       "institute":"LSCE",
       "description": "",
       "photo": "chuanlong_zhou.png",
-      "homeUrl": "https://homepage.com",
-      "scholarUrl": "https://scholar.google.com",
-      "githubUrl": "https://github.com"
+      "email": "chuanlong.zhou@lsce.ipsl.fr",
+      "homeUrl": "https://defve1988.github.io/",
+      "scholarUrl": "https://scholar.google.com/citations?hl=en&user=I1xZXuEAAAAJ",
+      "githubUrl": "https://github.com/chuanlongZhou"
     },
     {
       "name": "Harish C Phuleria",
-      "title": "Developer",
-      "institute":"IIT Bombay",
+      "title": "Investigator",
+      "institute": "IIT Bombay",
+      "description": "",
+      "photo": "HarishPhuleria1.jpg",
+      "email": "",
+      "homeUrl": "https://www.esed.iitb.ac.in/faculty/harish-phuleria",
+      "scholarUrl": "https://scholar.google.com/citations?user=F_PM2WQAAAAJ&hl=en",
+      "githubUrl": ""
+    },
+    {
+      "name": "Clément Goldmann",
+      "title": "Data Scientist",
+      "institute": "LSCE",
       "description": "",
       "photo": "",
-      "homeUrl": "https://homepage.com",
-      "scholarUrl": "https://scholar.google.com",
-      "githubUrl": "https://github.com"
+      "email": "",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Arnab Jana",
+      "title": "Investigator",
+      "institute": "IIT Bombay",
+      "description": "Urban Engineer",
+      "photo": "Arnab-Jana.jpg",
+      "email": "",
+      "homeUrl": "https://www.civil.iitb.ac.in/faculty/details/prof-arnab-jana",
+      "scholarUrl": "https://scholar.google.co.in/citations?user=cXcZjR4AAAAJ&hl=en",
+      "githubUrl": ""
+    },
+    {
+      "name": "Ahana Sarkar",
+      "title": "Project Research Scientist",
+      "institute": "IIT Bombay",
+      "description": "Urban Planner",
+      "photo": "Dr._Ahana_Sarkar.jpg",
+      "email": "ahanasarkar91@gmail.com",
+      "homeUrl": "",
+      "scholarUrl": "https://scholar.google.co.in/citations?user=bz_XDU0AAAAJ&hl=en",
+      "githubUrl": ""
+    },
+    {
+      "name": "Tanushree Bhattacharya",
+      "title": "Sr. Project Assistant",
+      "institute": "IIT Bombay",
+      "description": "Administrator",
+      "photo": "Tanushree_Bhattacharya.jpg",
+      "email": "tanushreenbhattacharya@gmail.com",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Abhinav Sharma",
+      "title": "PhD Student",
+      "institute": "IIT Bombay",
+      "description": "Meteorologist",
+      "photo": "Abhinav_sharma.jpg",
+      "email": "24d1232@iitb.ac.in",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Kounik De Sarkar",
+      "title": "PhD Student",
+      "institute": "IIT Bombay",
+      "description": "Environmental Engineer",
+      "photo": "Kounik_de_Sarkar.jpeg",
+      "email": "24d1266@iitb.ac.in",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Vipul Parmer",
+      "title": "PhD Student",
+      "institute": "IIT Bombay",
+      "description": "Urban Planner",
+      "photo": "Vipul.jpg",
+      "email": "v.parmar@iitb.ac.in",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Soumyadeep Haldar",
+      "title": "M.Tech Student",
+      "institute": "IIT Bombay",
+      "description": "Geographic Information Officer (GIO Fellow)",
+      "photo": "S_Haldar.jpg",
+      "email": "soumyadeeph@iitb.ac.in",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Varun R. Phadke",
+      "title": "M.Tech Student",
+      "institute": "IIT Bombay",
+      "description": "Architect",
+      "photo": "Varun_Photo.jpg",
+      "email": "datsvarun@gmail.com",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Sugandha Arora",
+      "title": "",
+      "institute": "University of Münster",
+      "description": "",
+      "photo": "Sugandha_arora.jpg",
+      "email": "ssugandh@uni-muenster.de",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
     }
-
   ]
   

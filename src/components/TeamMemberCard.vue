@@ -4,6 +4,7 @@
       <v-card
         class="mx-auto my-4 pa-5"
         max-width="600"
+        min-height="300"
         outlined
         hover
         v-bind="props"
@@ -13,6 +14,7 @@
         <v-row>
           <v-col cols="4" class="px-5 mb-3">
             <v-avatar 
+            v-if="photo !== ''"
             :size="isHovering ? '150' : '100'" 
             :image="'/people_avtar/'+photo"></v-avatar>
           </v-col>
@@ -27,13 +29,17 @@
             >{{ title }}</v-card-subtitle>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn icon :href="homeUrl" target="_blank">
+              <v-btn icon :href="'mailto:'+email" target="_blank" v-if="email !== ''">
+                <v-icon>mdi-email</v-icon>
+              </v-btn>
+
+              <v-btn icon :href="homeUrl" target="_blank" v-if="homeUrl !== ''">
                 <v-icon>mdi-home</v-icon>
               </v-btn>
-              <v-btn icon :href="scholarUrl" target="_blank">
+              <v-btn icon :href="scholarUrl" target="_blank" v-if="scholarUrl !== ''">
                 <v-icon>mdi-school</v-icon>
               </v-btn>
-              <v-btn icon :href="githubUrl" target="_blank">
+              <v-btn icon :href="githubUrl" target="_blank" v-if="githubUrl !== ''">
                 <v-icon>mdi-github</v-icon>
               </v-btn>
             </v-card-actions>
@@ -62,6 +68,7 @@ const props = defineProps({
   homeUrl: String,
   scholarUrl: String,
   githubUrl: String,
+  email: String,
 });
 </script>
   

@@ -23,6 +23,24 @@
             />
           </a>
         </v-col>
+        <v-col class="text-center">
+        <a href="https://www.nexqt.com/" target="_blank">
+        <img
+          src="@/assets/team_logo/nexqt.png"
+          alt="Team Logo"
+          class="team-logo"
+        />
+        </a>
+      </v-col>
+      <v-col class="text-center">
+        <a href="https://www.uni-muenster.de/en/" target="_blank">
+        <img
+          src="@/assets/team_logo/Munster.png"
+          alt="Team Logo"
+          class="team-logo"
+        />
+        </a>
+      </v-col>      
         <v-col cols="3" class="text-center">
           <a href="https://www.granthamfoundation.org/" target="_blank">
             <v-img
