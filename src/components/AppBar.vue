@@ -20,7 +20,7 @@
         :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
         justify-center
       >
-        100+ Indian City Project
+      CHETNA100+
       </span>
       <v-spacer></v-spacer>
       <v-btn text to="/"

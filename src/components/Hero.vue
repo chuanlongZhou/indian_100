@@ -27,12 +27,12 @@
 const props = defineProps({
   main: {
     type: String,
-    default: "Carbon Monitor 2.0 -100 Indian Cities",
+    default: "CHETNA - 100+ Indian Cities",
   },
   sub: {
     type: String,
     default:
-      "Near Real-time Carbon Emissions with High Spatial-temporal Resolutions",
+      "City-wise High-resolution carbon Emissions Tracking and Nationwide Analysis",
   },
 });
 </script>
