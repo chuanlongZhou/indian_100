@@ -3,7 +3,7 @@
       "name": "Philippe Ciais",
       "title": "Principal Investigator",
       "institute":"LSCE",
-      "description": "Philippe, is science advisor for nexqt. (partner). He is a senior researcher working at Laboratoire des Sciences du Climat et de l’Environnement. He is an internationally recognized expert of the global carbon cycle and greenhouse gases emissions monitoring. He is the author of over a thousand of peer-reviewed publications including many in Nature, Science and high-impact journals (cited 170000 times). He is among the top 1% most-cited scientists in the fields of Geosciences and Ecology.",
+      "description": "Philippe, is a senior researcher at LSCE. He is an internationally recognized expert of the global carbon cycle and greenhouse gases emissions monitoring. He is the author of over a thousand of peer-reviewed publications including many in Nature, Science and high-impact journals (cited 170000 times). He is among the top 1% most-cited scientists in the fields of Geosciences and Ecology.",
       "photo": "philippe_ciais.jpg",
       "email": "philippe.ciais@lsce.ipsl.fr",
       "homeUrl": "https://www.lsce.ipsl.fr/en/cycles-transferts/mosaic/pisp/philippe-ciais/",
@@ -12,9 +12,9 @@
     },
     {
       "name": "Chuanlong Zhou",
-      "title": "Investigator",
+      "title": "Project Investigator",
       "institute":"LSCE",
-      "description": "",
+      "description": "Research scientist at LSCE with an interdisciplinary background in engineering, environmental science, and computer science. Passionate about integrating environmental science, data science, machine learning, and web technology to address both scientific and real-world challenges. ",
       "photo": "chuanlong_zhou.png",
       "email": "chuanlong.zhou@lsce.ipsl.fr",
       "homeUrl": "https://defve1988.github.io/",
@@ -22,8 +22,41 @@
       "githubUrl": "https://github.com/chuanlongZhou"
     },
     {
+      "name": "Rohith Teja Mittakola",
+      "title": "PhD Student/Data Scientist",
+      "institute":"LSCE",
+      "description": "Data Scientist and PHD student working to build a high resolution dataset to estimate the CO2 and pollutant emissions from 100 different Indian cities' traffic.",
+      "photo": "rohith.jpeg",
+      "email": "rohith-teja.mittakola@lsce.ipsl.fr",
+      "homeUrl": "https://rohithteja.github.io/",
+      "scholarUrl": "https://scholar.google.com/citations?user=pQ1BWYsAAAAJ&hl=en",
+      "githubUrl": "https://medium.com/@rohithtejam"
+    },
+    {
+      "name": "Clément Goldmann",
+      "title": "Data Scientist",
+      "institute":"LSCE",
+      "description": "",
+      "photo": "clement.jpg",
+      "email": "clement.goldmann@lsce.ipsl.fr",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Biqing Zhu",
+      "title": "Post-doc Researcher@IIASA",
+      "institute":"LSCE",
+      "description": "Environmental Scientist, Carbon accounting",
+      "photo": "biqing.jpg",
+      "email": "zhub@iiasa.ac.at",
+      "homeUrl": "https://iiasa.ac.at/staff/biqing-zhu",
+      "scholarUrl": "",
+      "githubUrl": "https://github.com/bq-zhu"
+    },
+    {
       "name": "Harish C Phuleria",
-      "title": "Investigator",
+      "title": "Project Investigator",
       "institute": "IIT Bombay",
       "description": "",
       "photo": "HarishPhuleria1.jpg",
@@ -33,19 +66,8 @@
       "githubUrl": ""
     },
     {
-      "name": "Clément Goldmann",
-      "title": "Data Scientist",
-      "institute": "LSCE",
-      "description": "",
-      "photo": "",
-      "email": "",
-      "homeUrl": "",
-      "scholarUrl": "",
-      "githubUrl": ""
-    },
-    {
       "name": "Arnab Jana",
-      "title": "Investigator",
+      "title": "Project Investigator",
       "institute": "IIT Bombay",
       "description": "Urban Engineer",
       "photo": "Arnab-Jana.jpg",
@@ -133,11 +155,33 @@
     },
     {
       "name": "Sugandha Arora",
-      "title": "",
-      "institute": "University of Münster",
+      "title": "Researcher@University of Münster",
+      "institute": "LSCE",
       "description": "",
       "photo": "Sugandha_arora.jpg",
       "email": "ssugandh@uni-muenster.de",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Fouzi Benkhelifa",
+      "title": "CEO & Climate Action Planning Expert",
+      "institute": "Nexqt",
+      "description": "",
+      "photo": "Fouzi.webp",
+      "email": "ssugandh@uni-muenster.de",
+      "homeUrl": "",
+      "scholarUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "Nicolas Megel",
+      "title": "Data Scientist & AI Specialist",
+      "institute": "Nexqt",
+      "description": "",
+      "photo": "Nicolas.webp",
+      "email": "",
       "homeUrl": "",
       "scholarUrl": "",
       "githubUrl": ""

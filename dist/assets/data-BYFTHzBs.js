@@ -1,0 +1,1 @@
+import{_ as n}from"./Hero-CpVyXbHx.js";import{_ as s,z as t,A as c}from"./index-BQzFXenp.js";const e={};function _(a,r){const o=n;return t(),c(o,{main:"CHETNA Emission Dataset",sub:"coming soon..."})}const p=s(e,[["render",_]]);export{p as default};

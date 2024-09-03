@@ -1,6 +1,6 @@
 <template>
-  <Hero :main="'this is data page'" :sub="'not finished'" />
-  <ThreeDMap />
+  <Hero :main="'CHETNA Emission Dataset'" :sub="'coming soon...'" />
+  <!-- <ThreeDMap /> -->
 </template>
 
 <script setup>

@@ -12,7 +12,9 @@
 </template>
       
 <script setup>
-import "mapbox-gl";
+// todo: https://github.com/wlfei0502/mapbox-echarts/blob/master/example/scatter.html
+
+import * as mapboxgl from "mapbox-gl";
 import "mapbox-echarts";
 import * as echarts from "echarts";
 
@@ -22,6 +24,7 @@ import worldMapData from "@/assets/map/world.json"; // Replace with the actual p
 
 // import VChart, { THEME_KEY } from "vue-echarts";
 import { ref, provide } from "vue";
+mapboxgl.accessToken = 'pk.eyJ1Ijoid2xmZWkiLCJhIjoiY2puMTB6MXZlNHZjcTNwbnl3dnowYjhoaSJ9.s6ZkjRHGIY6xVNBRAf52MQ';
 
 var style = ref({
   version: 8,
@@ -29,7 +32,7 @@ var style = ref({
   glyphs: "mapbox://font/{fontstack}/{range}.pbf",
   sources: {
     "osm-tiles": {
-      type: "raster",
+      type: "mapbox://styles/mapbox/dark-v9",
       tiles: [
         "http://t{s}.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}",
       ],

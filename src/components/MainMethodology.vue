@@ -5,9 +5,20 @@
       width="100%"
     >
       <template v-slot:title>
-        <span class="text-h4 text-primary">How</span>
+        <span class="text-h4 text-primary">How - From Data To Emission</span>
       </template>
       <div class="text-h6 text-text2 font-weight-light">Big data + Machine learning</div>
+      <v-card-text class="text-subtitle-1 font-weight-light text-start">
+        <p>
+          CHETNA gather high resolution datasets from various sources, including census data, surveys, building footprints, 
+          power generation data, individual vehicle mobility data, and high-resolution satellite imagery. 
+          Using machine learning, we identify the emission related activities  with sectoral model based on buildings 
+          categorization, industrial activity detection, traffic flows and power generation by each large power plant. 
+        </p>
+
+        <br>
+
+      </v-card-text>
     </v-card>
 
     <v-row class="mb-15">
@@ -16,6 +27,7 @@
           <transition name="slide-fade2">
             <v-card
               class="ml-15 text-center  mt-10"
+              :class="isHovering ? 'trans-background' : ''"
               width="110%"
               height="600px"
               v-if="show"
@@ -46,7 +58,7 @@
               class="ml-0 text-center mt-15"
               height="450px"
               width="200%"
-              style="z-index: 999; left: -100px; top: 150px"
+              style="z-index: 999; left: -100px; top: 200px"
               v-if="show"
               v-bind="props"
               :elevation="isHovering ? 5 : 2"
@@ -73,6 +85,7 @@
           <transition name="slide-fade">
             <v-card
               class="mr-15 ml-0 text-center  mt-10"
+              :class="isHovering ? 'trans-background' : ''"
               width="100%"
               height="600px"
               v-if="show"
@@ -102,7 +115,7 @@
 <script setup>
 const checkScrollTop = () => {
   // console.log(window.scrollY);
-  if (window.scrollY > 2075) {
+  if (window.scrollY >2800) {
     show.value = true;
   } else {
     show.value = false;
@@ -155,6 +168,9 @@ var show = ref(false);
 .slide-fade-leave-to {
   transform: translateX(50px);
   opacity: 0;
+}
+.trans-background {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 </style>
     

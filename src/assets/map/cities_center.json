@@ -1,0 +1,695 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "0",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Ahmedabad",
+                "population": 8235000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.57149854849521,
+                    23.022603424539472
+                ]
+            }
+        },
+        {
+            "id": "1",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Bhopal",
+                "population": 1798218
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.41452344960267,
+                    23.225860155435893
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Bhubaneswar",
+                "population": 881988
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.82849671488438,
+                    20.290316248287635
+                ]
+            }
+        },
+        {
+            "id": "3",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Erode",
+                "population": 521776
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.69832005544289,
+                    11.348169736220672
+                ]
+            }
+        },
+        {
+            "id": "4",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Guwahati",
+                "population": 957352
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    91.75642522833277,
+                    26.14573640160003
+                ]
+            }
+        },
+        {
+            "id": "5",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Hubli dharwad",
+                "population": 943857
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.06725034280224,
+                    15.397920282594063
+                ]
+            }
+        },
+        {
+            "id": "6",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Imphal",
+                "population": 268243
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.92937486973038,
+                    24.81424259976277
+                ]
+            }
+        },
+        {
+            "id": "7",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Indore",
+                "population": 2201927
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.87266209534378,
+                    22.725464738006462
+                ]
+            }
+        },
+        {
+            "id": "8",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Jabalpur",
+                "population": 1444441
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.9324288828523,
+                    23.155824106971234
+                ]
+            }
+        },
+        {
+            "id": "9",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Jaipur",
+                "population": 3046163
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.80102820378696,
+                    26.89536191307371
+                ]
+            }
+        },
+        {
+            "id": "10",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Kanpur",
+                "population": 2765345
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.32507584819398,
+                    26.438470088880255
+                ]
+            }
+        },
+        {
+            "id": "11",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Kolkata",
+                "population": 4486679
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.35874589283338,
+                    22.52363705024419
+                ]
+            }
+        },
+        {
+            "id": "12",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Lucknow",
+                "population": 3382000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.93130022141361,
+                    26.850595127599597
+                ]
+            }
+        },
+        {
+            "id": "13",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Madurai",
+                "population": 1561129
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.11963866306077,
+                    9.923073008502211
+                ]
+            }
+        },
+        {
+            "id": "14",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Mangaluru",
+                "population": 619664
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.84532191593725,
+                    12.914240372350529
+                ]
+            }
+        },
+        {
+            "id": "15",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Meerut",
+                "population": 1426050
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.69235157985271,
+                    28.97004401683897
+                ]
+            }
+        },
+        {
+            "id": "16",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Mumbai",
+                "population": 12442373
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.86990952785894,
+                    19.117745847183034
+                ]
+            }
+        },
+        {
+            "id": "17",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Mysuru",
+                "population": 920550
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.64795687799763,
+                    12.309467208307169
+                ]
+            }
+        },
+        {
+            "id": "18",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Nagpur",
+                "population": 2405665
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.54498962449011,
+                    0.015689811971499816
+                ]
+            }
+        },
+        {
+            "id": "19",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Nashik",
+                "population": 1486053
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.79381899841796,
+                    19.99614855914454
+                ]
+            }
+        },
+        {
+            "id": "20",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Patna",
+                "population": 1684222
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.13736433377446,
+                    25.600958304055553
+                ]
+            }
+        },
+        {
+            "id": "21",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Pune",
+                "population": 3124458
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.86341311781928,
+                    18.520237292006815
+                ]
+            }
+        },
+        {
+            "id": "22",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Ranchi",
+                "population": 1073440
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.32353483010226,
+                    23.35278526128756
+                ]
+            }
+        },
+        {
+            "id": "23",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Rourkela",
+                "population": 536450
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.83258534228261,
+                    22.23094133110312
+                ]
+            }
+        },
+        {
+            "id": "24",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Sagar",
+                "population": 274556
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.73954673832338,
+                    23.823673047541515
+                ]
+            }
+        },
+        {
+            "id": "25",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Shilong",
+                "population": 143229
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    91.88313005243474,
+                    25.573205245258933
+                ]
+            }
+        },
+        {
+            "id": "26",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Shimla",
+                "population": 171817
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.16567660066961,
+                    31.100007862703627
+                ]
+            }
+        },
+        {
+            "id": "27",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Shivamogga",
+                "population": 322650
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.57279727051953,
+                    13.937227875086315
+                ]
+            }
+        },
+        {
+            "id": "28",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Surat",
+                "population": 4467797
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.81157237866822,
+                    21.17005757191397
+                ]
+            }
+        },
+        {
+            "id": "29",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Tiruchirappalli",
+                "population": 916857
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.69776405303179,
+                    10.79867477341758
+                ]
+            }
+        },
+        {
+            "id": "30",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Tiruppur",
+                "population": 444543
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.35542708738991,
+                    11.111062890405611
+                ]
+            }
+        },
+        {
+            "id": "31",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Ujjain",
+                "population": 515215
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.80114238585324,
+                    23.180731781292053
+                ]
+            }
+        },
+        {
+            "id": "32",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Vadodara",
+                "population": 2065771
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.18891554459704,
+                    22.2984315032352
+                ]
+            }
+        },
+        {
+            "id": "33",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Varanashi",
+                "population": 1201815
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.99758404513634,
+                    25.33006348845495
+                ]
+            }
+        },
+        {
+            "id": "34",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Vijaywada",
+                "population": 1034353
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.63957724414895,
+                    16.520110581109492
+                ]
+            }
+        },
+        {
+            "id": "35",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Vishakhapatnam",
+                "population": 1730320
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.23496057594251,
+                    17.72962860746139
+                ]
+            }
+        },
+        {
+            "id": "36",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Aizawl",
+                "population": 291822
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    92.710644648877,
+                    23.73324874660312
+                ]
+            }
+        },
+        {
+            "id": "37",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Bengaluru",
+                "population": 8443675
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.60398750750042,
+                    12.979469770112576
+                ]
+            }
+        },
+        {
+            "id": "38",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Chandigarh",
+                "population": 1055450
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.78281005781953,
+                    30.725860811830987
+                ]
+            }
+        },
+        {
+            "id": "39",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Chennai",
+                "population": 7090000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.23015900440419,
+                    13.062364831966454
+                ]
+            }
+        },
+        {
+            "id": "40",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Coimbatore",
+                "population": 1586720
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.9752769547195,
+                    11.020139849827567
+                ]
+            }
+        },
+        {
+            "id": "41",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Faridabad",
+                "population": 1423667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.29825396027417,
+                    28.4089171762231
+                ]
+            }
+        },
+        {
+            "id": "42",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Gangtok",
+                "population": 100286
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.61066641249744,
+                    27.3362674865592
+                ]
+            }
+        },
+        {
+            "id": "43",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Hyderabad",
+                "population": 6809970
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.44960136117106,
+                    17.42800566997446
+                ]
+            }
+        },
+        {
+            "id": "45",
+            "type": "Feature",
+            "properties": {
+                "cityname": "Kohima",
+                "population": 99000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.10402341184324,
+                    25.66097263561801
+                ]
+            }
+        },
+        {
+            "id": "46",
+            "type": "Feature",
+            "properties": {
+                "cityname": "New Delhi",
+                "population": 21000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.209,
+                    28.6139
+                ]
+            }
+        }
+    ]
+}

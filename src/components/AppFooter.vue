@@ -2,7 +2,7 @@
   <v-footer height="300" app color="#F2FADC">
     <v-container>
       <v-row justify="center">
-        <div class="text-h5 text-primary">A PROJECT LED BY</div>
+        <div class="text-h5 text-primary">PROJECT PARTNERS</div>
       </v-row>
       <v-row justify="center" class="py-4">
         <v-col cols="3" class="text-center">
@@ -54,6 +54,15 @@
           <a href="https://www.tsinghua.edu.cn/en/" target="_blank">
             <v-img
               src="@/assets/team_logo/th.png"
+              alt="Team Logo"
+              class="team-logo"
+            ></v-img>
+          </a>
+        </v-col>
+        <v-col cols="3" class="text-center">
+          <a href="https://www.worldbank.org/en/home" target="_blank">
+            <v-img
+              src="@/assets/team_logo/worldbank.jpg"
               alt="Team Logo"
               class="team-logo"
             ></v-img>

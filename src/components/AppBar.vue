@@ -54,7 +54,7 @@
   
   <script setup>
   const checkScrollTop = () => {
-  if (window.scrollY > 700) {
+  if (window.scrollY > 600) {
     not_top.value = true;
   } else {
     not_top.value = false;
