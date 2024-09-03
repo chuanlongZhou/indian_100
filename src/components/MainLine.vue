@@ -3,7 +3,7 @@
     <v-card v-bind="props" :elevation="isHovering ? 5 : 0" class="mb-10 pt-10 pa-10">
       <!-- <v-chart class="chart" :option="option" autoresize /> -->
       <LinePlot
-        :title="'Annual Fossil CO2 Emissions'"
+        :title="'Annual Fossil CO2 Emissions (MtCO2)'"
         :xAxisData="xAxisData"
         :seriesData="seriesData"
         :emphasizedSeriesName="'India'"
@@ -34,16 +34,16 @@ const selection = ref([]);
 const processData = (data, selected) => {
   // Extract xAxisData (timestamps) from the first sector's data
   xAxisData.value = data[0].data.map((d) => d.timestamp);
-  console.log(selected.value);
+  // console.log(selected.value);
 
   // Create series data for each sector
   seriesData.value = data.map((sector) => ({
     name: sector.sector,
     data: sector.data.map((d) => d.value),
   }));
-  console.log(selected.value);
+  // console.log(selected.value);
   seriesData.value = selected.value.map((index) => seriesData.value[index]);
-  console.log(seriesData.value);
+  // console.log(seriesData.value);
 };
 
 onMounted(() => {

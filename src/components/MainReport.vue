@@ -115,9 +115,9 @@ const processData = (data, selected) => {
     name: sector.sector,
     data: sector.data.map((d) => d.value),
   }));
-  console.log(selected.value);
+  // console.log(selected.value);
   seriesData.value = selected.value.map(index => seriesData.value[index]);
-  console.log(seriesData.value);
+  // console.log(seriesData.value);
 };
 
 function customToggle(originalToggle) {

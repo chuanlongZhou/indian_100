@@ -32,15 +32,16 @@ let chartInstance = null;
 var colors = [
   "#EE6666",
   "#91CC75",
-  "#FAC858",
+  "#546570",
   "#5470C6",
   "#7262FD",
-  "#546570",
+  "#FAC858",
   "#C4CCD3",
 ];
 // Initialize the chart
 const initChart = () => {
-  console.log(props.emphasizedSeriesName);
+  // console.log(props.emphasizedSeriesName);
+  console.log(chartContainer.value);
   if (chartContainer.value) {
     chartInstance = echarts.init(chartContainer.value);
     const options = {
@@ -65,41 +66,7 @@ const initChart = () => {
         ...series,
         type: "line",
         // symbol: "circle",
-        symbolSize:
-          series.name === props.emphasizedSeriesName &&
-          props.emphasizedSeriesName !== ""
-            ? 15
-            : 8,
-        itemStyle: {
-          color:
-            series.name === props.emphasizedSeriesName &&
-            props.emphasizedSeriesName !== ""
-              ? "black"
-              : colors[index],
-          // borderColor: echarts.color.list[index],
-          borderWidth: 2,
-        },
-        lineStyle: {
-          opacity:
-            series.name === props.emphasizedSeriesName &&
-            props.emphasizedSeriesName !== ""
-              ? 1
-              : 0.5,
-          width: series.name === props.emphasizedSeriesName &&
-            props.emphasizedSeriesName !== ""
-              ? 15
-              : 5,
-        },
-        emphasis: {
-          focus: "series",
-          lineStyle: {
-            opacity: 1,
-          },
-          itemStyle: {
-            borderColor: "black",
-            borderWidth: 2,
-          },
-        },
+
       })),
     };
 
@@ -111,12 +78,12 @@ const initChart = () => {
 watch(
   () => [props.seriesData, props.xAxisData],
   () => {
-    console.log(
-      props.seriesData.map((series) => ({
-        ...series,
-        type: "line",
-      }))
-    );
+    // console.log(
+    //   props.seriesData.map((series) => ({
+    //     ...series,
+    //     type: "line",
+    //   }))
+    // );
 
     if (chartInstance) {
       chartInstance.setOption(
@@ -128,10 +95,46 @@ watch(
             data: props.seriesData.map((series) => series.name),
             top: "bottom",
           },
-          series: props.seriesData.map((series) => ({
+          series: props.seriesData.map((series, index) => ({
             ...series,
             type: "line",
-            symbolSize: 10,
+            symbolSize:
+              series.name === props.emphasizedSeriesName &&
+              props.emphasizedSeriesName !== ""
+                ? 15
+                : 8,
+            itemStyle: {
+              color: colors[index],
+              // color:
+              //   series.name === props.emphasizedSeriesName &&
+              //   props.emphasizedSeriesName !== ""
+              //     ? "black"
+              //     : colors[index],
+              // borderColor: echarts.color.list[index],
+              borderWidth: 2,
+            },
+            lineStyle: {
+              opacity:
+                series.name === props.emphasizedSeriesName &&
+                props.emphasizedSeriesName !== ""
+                  ? 1
+                  : 0.5,
+              width:
+                series.name === props.emphasizedSeriesName &&
+                props.emphasizedSeriesName !== ""
+                  ? 12
+                  : 5,
+            },
+            emphasis: {
+              focus: "series",
+              lineStyle: {
+                opacity: 1,
+              },
+              itemStyle: {
+                borderColor: "black",
+                borderWidth: 2,
+              },
+            },
           })),
         },
         { replaceMerge: ["series"] }

@@ -12,6 +12,8 @@
     "core-js": "^3.37.1",
     "echarts": "^5.5.1",
     "echarts-gl": "^2.0.9",
+    "mapbox-echarts": "^1.0.3",
+    "mapbox-gl": "^3.6.0",
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vue-echarts": "^7.0.1",

@@ -46,7 +46,8 @@
         Eaque cupiditate minima, at placeat totam, magni doloremque veniam neque
         porro libero rerum unde voluptatem!
       </v-card-text>
-      <MainMap />
+      <!-- <MainMap /> -->
+      <MapboxScatter />
     </v-card>
 
     <MainMethodology />
