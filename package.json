@@ -22,7 +22,8 @@
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vue-echarts": "^7.0.1",
-    "vuetify": "^3.6.11"
+    "vuetify": "^3.6.11",
+    "@rollup/rollup-linux-x64-gnu": "^4.34.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
