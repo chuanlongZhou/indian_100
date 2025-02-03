@@ -104,7 +104,7 @@ export default {
       },
       series: [
         {
-          name: "CO2 Emission per Capita - China",
+          name: "CO₂ Emission per Capita - China",
           data: data[1],
           type: "scatter",
           symbolSize: function (data) {
@@ -137,7 +137,7 @@ export default {
           },
         },
         {
-          name: "CO2 Emission per Capita - India",
+          name: "CO₂ Emission per Capita - India",
           data: data[0],
           type: "scatter",
           symbolSize: function (data) {

@@ -62,7 +62,7 @@
         <v-col cols="3" class="text-center">
           <a href="https://www.worldbank.org/en/home" target="_blank">
             <v-img
-              src="@/assets/team_logo/worldbank.jpg"
+              src="@/assets/team_logo/worldbank.png"
               alt="Team Logo"
               class="team-logo"
             ></v-img>

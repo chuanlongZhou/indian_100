@@ -3,24 +3,28 @@
   <v-hover v-slot="{ isHovering, props }" open-delay="150" close-delay="100">
     <v-app-bar
       app
-      height="100"
+      height="80"
       v-bind="props"
-      :color="isHovering || not_top ? 'rgba(223, 223, 223, 1)' : 'rgba(0, 0, 0, 0)'"
-      elevation="2"
+      :color="isHovering || not_top ? 'rgba(255, 255, 255, 1)' : 'rgba(0, 0, 0, 0.5)'"
+      elevation="0"
+      :style="{
+        borderBottom: `1px solid ${~not_top ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)'}`
+        }"
     >
       <v-avatar
-        image="@/assets/logo.png"
-        size="75"
+        image="@/assets/CHETNA.svg"
+        size="70"
         class="mr-4 ml-5"
         :class="isHovering || not_top ? '' : 'grayscale-image'"
+        tile
       ></v-avatar>
 
       <span
-        class="text-h4 font-weight-light"
-        :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
+        class="text-h4"
+        :class="isHovering || not_top ? 'text-primary' : 'text-grey-lighten-4'"
         justify-center
       >
-      CHETNA100+
+      CHETNA 100 Cities
       </span>
       <v-spacer></v-spacer>
       <v-btn text to="/"
@@ -84,7 +88,7 @@ var not_top = ref(false);
   border-top-color: #00C853; /* Change top border color on hover */
 }
 .grayscale-image{
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 </style>
   

@@ -57,7 +57,7 @@
 
       <v-card-text class="text-subtitle-1 font-weight-light text-start">
         <p>
-          CHETNA, a succeed project of Carbon Monitor 2.0, aims to leverage artificial intelligence and new datasets to deliver high resolution daily CO2 and pollutants emission from power, traffic, 
+          CHETNA, a succeed project of Carbon Monitor 2.0, aims to leverage artificial intelligence and new datasets to deliver high resolution daily CO₂ and pollutants emission from power, traffic, 
           residential, industrial and aviation sectors down to street and building block level,s for 100+ Indian cities. 
           Near real-time and high spatial resolution data is essential for accurately quantifying urban carbon and pollutants 
           emissions because it captures the dynamic and complex nature of urban energy use and emissions.

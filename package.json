@@ -8,12 +8,17 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@antv/l7": "^2.22.3",
+    "@loaders.gl/core": "^4.3.3",
+    "@loaders.gl/json": "^4.3.3",
     "@mdi/font": "7.4.47",
+    "axios": "^1.7.9",
     "core-js": "^3.37.1",
+    "d3": "^7.9.0",
+    "deck.gl": "^9.1.0",
     "echarts": "^5.5.1",
     "echarts-gl": "^2.0.9",
     "mapbox-echarts": "^1.0.3",
-    "mapbox-gl": "^3.6.0",
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vue-echarts": "^7.0.1",

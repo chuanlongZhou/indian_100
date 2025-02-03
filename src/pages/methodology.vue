@@ -22,7 +22,7 @@
  var display_data = ref(
   [{
     "title": "Power Generation Sector",
-    "objective":"To estimate daily CO2 emissions from power generation within Indian cities by creating high-resolution temporal profiles of power plant activities.",
+    "objective":"To estimate daily CO₂ emissions from power generation within Indian cities by creating high-resolution temporal profiles of power plant activities.",
     "methodology": "This work package will use a combination of satellite imagery, including daily Sentinel images, and data from the GID database, which contains information on over 5000 power plants globally. By analyzing plume activities from power plants using optical and infrared signatures, we will develop temporal profiles that represent the operational status of these plants. These profiles will then be linked with disaggregated state and district-level power generation data to estimate the emissions associated with electricity consumption in urban areas.",
     "imageSrc": "power.png",
     "references":[
@@ -38,7 +38,7 @@
   },
   {
     "title": "Residential Sector",
-    "objective":"To estimate CO2 emissions from residential, commercial, and administrative buildings at a granular level within urban areas.",
+    "objective":"To estimate CO₂ emissions from residential, commercial, and administrative buildings at a granular level within urban areas.",
     "methodology":"This work package utilizes AI-driven analysis of building morphology data, combined with datasets from OpenStreetMap, Microsoft building footprints, and remote sensing images from Sentinel-2. The methodology involves mapping building height, volume, and type to determine energy consumption patterns. These parameters, along with regional development indices, will be used to calculate building-level emission intensities. The resulting data will be integrated with near real-time temperature and energy consumption proxies to produce high-resolution emissions maps at the community level.",
     "imageSrc": "building.png",
     "references":[]
@@ -53,21 +53,21 @@
   {
     "title": "Ground Transportation",
     "objective":"To calculate daily emissions from ground transportation in Indian cities at the block level using advanced traffic and vehicle data.",
-    "methodology":"This work package will involve acquiring traffic flow and speed data from commercial providers such as TomTom and mapBox, focusing on a cost-effective sampling of key streets. Machine learning models will be employed to upscale this data to city blocks, using district-level vehicle fleet information and emission factors from COPERT-5 and India-specific datasets from ARAI. The models will be validated using independent data sources like fuel sales and vehicle registrations to ensure accuracy in estimating transportation-related CO2 emissions.",
+    "methodology":"This work package will involve acquiring traffic flow and speed data from commercial providers such as TomTom and mapBox, focusing on a cost-effective sampling of key streets. Machine learning models will be employed to upscale this data to city blocks, using district-level vehicle fleet information and emission factors from COPERT-5 and India-specific datasets from ARAI. The models will be validated using independent data sources like fuel sales and vehicle registrations to ensure accuracy in estimating transportation-related CO₂ emissions.",
     "imageSrc": "transport.png",
     "references":[]
   },
   {
     "title": "Aviation",
-    "objective":"To estimate daily CO2 emissions from aviation activities within the major cities.",
-    "methodology":"Using data from Flightradar24, this work package will track all flights (both domestic and international) departing from and arriving at airports around the selected cities. Emissions will be calculated by multiplying the distance flown by emission factors specific to different types of aircraft. The focus will be on developing accurate daily emissions profiles that reflect the aviation sector's contribution to urban CO2 levels.",
+    "objective":"To estimate daily CO₂ emissions from aviation activities within the major cities.",
+    "methodology":"Using data from Flightradar24, this work package will track all flights (both domestic and international) departing from and arriving at airports around the selected cities. Emissions will be calculated by multiplying the distance flown by emission factors specific to different types of aircraft. The focus will be on developing accurate daily emissions profiles that reflect the aviation sector's contribution to urban CO₂ levels.",
     "imageSrc": "aviation.png",
     "references":[]
   },
   {
     "title": "Pollutant Co-Emissions",
-    "objective":"To assess the emissions of air pollutants that are co-emitted with CO2 from key urban sectors, with a focus on improving air quality data.",
-    "methodology":"The approach includes using technology-linked emission factors, sourced from national and regional inventories, to estimate the emissions of pollutants like NOx, SO2, and particulate matter from power plants, industries, and transportation. The data will be cross-referenced with existing urban pollution datasets, such as those from the ApNA City program, to ensure consistency and accuracy. This will help in identifying major sources of air pollution in conjunction with CO2 emissions.",
+    "objective":"To assess the emissions of air pollutants that are co-emitted with CO₂ from key urban sectors, with a focus on improving air quality data.",
+    "methodology":"The approach includes using technology-linked emission factors, sourced from national and regional inventories, to estimate the emissions of pollutants like NOx, SO2, and particulate matter from power plants, industries, and transportation. The data will be cross-referenced with existing urban pollution datasets, such as those from the ApNA City program, to ensure consistency and accuracy. This will help in identifying major sources of air pollution in conjunction with CO₂ emissions.",
     "imageSrc": "co-emission.png",
     "references":[]
   }

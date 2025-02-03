@@ -3,7 +3,7 @@
     <v-card v-bind="props" :elevation="isHovering ? 5 : 0" class="mb-10 pt-10 pa-10">
       <!-- <v-chart class="chart" :option="option" autoresize /> -->
       <LinePlot
-        :title="'Annual Fossil CO2 Emissions (MtCO2)'"
+        :title="'Annual Fossil CO₂ Emissions (MtCO₂)'"
         :xAxisData="xAxisData"
         :seriesData="seriesData"
         :emphasizedSeriesName="'India'"

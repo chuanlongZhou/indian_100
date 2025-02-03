@@ -27,7 +27,7 @@
 const props = defineProps({
   main: {
     type: String,
-    default: "CHETNA - 100+ Indian Cities",
+    default: "CHETNA - 100 Indian Cities",
   },
   sub: {
     type: String,

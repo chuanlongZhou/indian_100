@@ -62,7 +62,7 @@
 
       <v-row ref="downloadSection3" height="100px" class="box my-5">
         <LinePlot
-          :title="'CO2 Emissions by Sector (2021-2023)'"
+          :title="'CO₂ Emissions by Sector (2021-2023)'"
           :xAxisData="xAxisData"
           :seriesData="seriesData"
         />
@@ -80,7 +80,7 @@
               Download our dataset
             </span>
             <v-btn class="ma-2" color="green" large to="/data">
-              <v-icon left>mdi-download</v-icon> Download Now
+              <v-icon left>mdi-download</v-icon> Download Dataset Now
             </v-btn>
           </v-card>
         </v-col>
@@ -183,7 +183,7 @@ var data = ref([
     change: "-5.09%",
   },
   {
-    title: "Total CO2 Emissions",
+    title: "Total CO₂ Emissions",
     value: "0 Mt",
     change: "0%",
   },
