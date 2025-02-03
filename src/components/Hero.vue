@@ -17,7 +17,7 @@
         class="mt-12"
       ></v-btn>
     </div>
-    # add an overlay to this div
+    <!-- # add an overlay to this div -->
     <div class="overlay"></div>
   </div>
 </template>

@@ -11,7 +11,6 @@
                     </v-col>
 
                     <v-col>
-
                         <!-- Dataset Type Selection -->
                         <v-select v-model="selectedType" :items="datasetTypes" label="Select Data Type" outlined
                             dense></v-select>
@@ -46,7 +45,6 @@ const baseUrl = "https://raw.githubusercontent.com/chuanlongZhou/indian_100_data
 
 // Dataset type selection
 const datasetTypes = ["Time Series Data", "Gridded Map Data"]
-
 
 const cityNames = [
     'Total', 'Delhi', 'Mumbai', 'Bengaluru', 'Ghaziabad', 'Faridabad',
@@ -85,7 +83,6 @@ const downloadDataset = async () => {
     const fileUrl = `${baseUrl}${folder}/${fileName}`;
 
     // console.log("Downloading:", selectedType);
-
     try {
         const response = await fetch(fileUrl);
         if (!response.ok) {
@@ -94,7 +91,6 @@ const downloadDataset = async () => {
 
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
-
         const a = document.createElement("a");
         a.href = url;
         a.download = fileName;

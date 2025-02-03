@@ -1,5 +1,6 @@
 <template>
   <v-footer height="300" app color="#F2FADC">
+
     <v-container>
       <v-row justify="center">
         <div class="text-h5 text-primary">PROJECT PARTNERS</div>

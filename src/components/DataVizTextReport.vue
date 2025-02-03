@@ -8,7 +8,7 @@
               height="40px" width="40px" />
             <v-card-text class="ml-1">
               <div class="text-h6 font-weight-medium">{{ formatNumber(sectorData[sector.key]) }}</div>
-              <div class="text-caption text-grey text-left">{{ sector.label }} (Gt)</div>
+              <div class="text-caption text-grey text-left">{{ sector.label }} (Mt)</div>
               <v-chip color="red" variant="outlined" size="small" class="mt-3"
                 v-if="sectorData[sector.key + '_change'] > 0">
                 +{{ sectorData[sector.key + '_change'] }}%
