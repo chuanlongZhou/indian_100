@@ -111,7 +111,7 @@ const items = [
   {
     title: "GitHub",
     icon: `mdi-github`,
-    href: "",
+    href: "https://github.com/chuanlongZhou/indian_100_data",
   },
 ];
 </script>

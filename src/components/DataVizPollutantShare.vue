@@ -61,12 +61,16 @@ onMounted(fetchData);
 </script>
 
 <template>
-  <v-container>
+  <!-- <v-card-title class="text-h6 text-primary">Pollutant</v-card-title> -->
+  <div class="chart-container">
+    <v-chart :option="smallPieOptions" 
+    style="height: 300px; width: 100%"
+    :autoresize="true"></v-chart>
+  </div>
+  <!-- <v-container>
     <v-card>
-      <v-card-title class="text-h6 text-primary">Pollutant</v-card-title>
       <v-card-text>
-        <v-chart :option="smallPieOptions" style="height: 300px; width: 100%"></v-chart>
       </v-card-text>
     </v-card>
-  </v-container>
+  </v-container> -->
 </template>

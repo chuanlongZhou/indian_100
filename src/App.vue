@@ -1,6 +1,6 @@
 <template>
   <v-app>
-  <AppBar />
+    <AppBar />
     <v-main>
       <router-view />
     </v-main>
@@ -8,5 +8,11 @@
 </template>
 
 <script setup>
-  //
+//
 </script>
+
+<style>
+.v-chart {
+  flex-grow: 0 !important;
+}
+</style>

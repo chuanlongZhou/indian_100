@@ -61,6 +61,7 @@ async function fetchData() {
       trigger: "item",
       formatter: (params) => `<b>${params.name}</b>: ${params.value} Mt/yr (${params.percent}%)`,
     },
+    responsive: true,
     legend: { bottom: 0 },
     series: [
       {
@@ -96,13 +97,18 @@ onMounted(fetchData);
 </script>
 
 <template>
-  <v-container>
-    <v-card>
-      <v-card-title class="text-h4 font-weight-light text-primary">CO₂</v-card-title>
+  <!-- <v-card-title class="text-h4 font-weight-light text-primary">CO₂</v-card-title> -->
+  <!-- <div class="chart-container">   -->
+    <v-chart :option="bigPieOptions" 
+    style="height: 400px; width: 100%"
+    :autoresize="true"
+    ></v-chart>
+  <!-- </div> -->
+  <!-- <v-container>
+    <v-card style="max-width: 1000px; margin: auto;">
       <v-card-text>
-        <v-chart :option="bigPieOptions" style="height: 400px; width: 100%"></v-chart>
       </v-card-text>
     </v-card>
 
-  </v-container>
+  </v-container> -->
 </template>

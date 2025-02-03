@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid>
-    <!-- Hero Section -->
+  <v-container>
     <Hero :main="'CHETNA Emission Dataset'" :sub="'Data Summary'" />
+    <!-- Hero Section -->
 
     <!-- Time Series Section -->
     <v-row class="px-10">
@@ -27,7 +27,8 @@
         </v-row>
         <v-row>
           <v-col cols="6" class="mt-15">
-            <DataVizMapPie />
+            <!-- <DataVizMapPie /> -->
+            <DataVizPollutantShare />
 
           </v-col>
 
@@ -37,10 +38,6 @@
 
             </v-row>
 
-            <v-row>
-              <DataVizPollutantShare />
-            </v-row>
-
           </v-col>
 
         </v-row>
@@ -48,19 +45,29 @@
 
       <!-- Right Column - Map -->
       <v-col cols="12" md="6">
-        <v-card-title class="text-h4 font-weight-light text-primary mt-10">Gridded Emissions</v-card-title>
+        <v-row>
+          <DataVizMapPie />
+        </v-row>
+        <v-row justify="center">
+          <v-btn color="primary" class="mt-5" to="/gridmap">
+            <v-icon left>mdi-dots-grid</v-icon>
+            View Gridded Map
+          </v-btn>
+        </v-row>
 
-        <DataVizMap3DBarHeatMap />
+        <!-- <DataVizMap3DBarHeatMap /> -->
 
       </v-col>
     </v-row>
 
     <v-divider class="mx-10 py-5 mt-10"></v-divider>
 
+
     <v-row class="pl-10">
       <!-- Bar Plot -->
       <DataVizTotaBar />
     </v-row>
+
 
     <!-- <v-divider class="mx-10 py-5"></v-divider> -->
     <!-- <GetData /> -->

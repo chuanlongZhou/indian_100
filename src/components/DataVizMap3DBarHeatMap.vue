@@ -1,9 +1,10 @@
 <template>
   <v-card>
-    <div ref="mapContainer" class="map-container"></div>
-    <div ref="tooltip" class="tooltip" v-show="tooltipVisible" 
-         :style="{ top: tooltipY + 'px', left: tooltipX + 'px' }"
-         v-html="tooltipContent">
+    <div class="chart-container">
+      <div ref="mapContainer" class="map-container"></div>
+      <div ref="tooltip" class="tooltip" v-show="tooltipVisible"
+        :style="{ top: tooltipY + 'px', left: tooltipX + 'px' }" v-html="tooltipContent">
+      </div>
     </div>
   </v-card>
 </template>
@@ -13,6 +14,7 @@ import { ref, onMounted } from 'vue';
 import { HeatmapLayer, Scene } from '@antv/l7';
 import { Mapbox } from '@antv/l7-maps';
 
+
 export default {
   setup() {
     const mapContainer = ref(null);
@@ -21,6 +23,8 @@ export default {
     const tooltipX = ref(0);
     const tooltipY = ref(0);
     const mapboxToken = 'pk.eyJ1IjoiZGVmdmUxOTg4IiwiYSI6ImNtNm9lcnlscjB6OTYya3M3OWZ0ZnpqbnoifQ.POIJTiHCraKkHLUGMaWnyg'; // Replace with your actual Mapbox token
+    
+
 
     onMounted(() => {
       const scene = new Scene({
@@ -28,7 +32,7 @@ export default {
         logoVisible: false,
         map: new Mapbox({
           style: 'mapbox://styles/mapbox/light-v10',
-          pitch: 43,
+          pitch: 55,
           center: [79.0193, 22.3511],
           zoom: 5,
           token: mapboxToken,
@@ -66,13 +70,12 @@ export default {
                 '#146968', '#50A078', '#FFBBBB', '#FF8888', '#FF5555', '#FF2222', '#CC0000', '#990000'
               ]);
             // console.log(layer);
-            
-            scene.addLayer(layer);
 
+            scene.addLayer(layer);
             // ✅ Add hover event to show tooltip
             layer.on('mousemove', (ev) => {
               if (ev.feature) {
-                tooltipContent.value = `CO₂: ${(ev.feature.sum/1000).toFixed(1)} Kt/yr`;
+                tooltipContent.value = `CO₂: ${(ev.feature.sum / 1000).toFixed(1)} Kt/yr`;
                 tooltipX.value = ev.x + 10;
                 tooltipY.value = ev.y - 10;
                 tooltipVisible.value = true;
@@ -86,6 +89,18 @@ export default {
             });
           });
       });
+//       const resizeObserver = new ResizeObserver(() => {
+//   if (scene) {
+//     const container = mapContainer.value;
+//     var scene_container = scene.getContainer();
+//     console.log(scene_container);
+
+//     scene_container.style.width = container.clientWidth + 'px';
+//     console.log();
+//   }
+// });
+//       resizeObserver.observe(mapContainer.value);
+      // scene.setMapStatus({ resizeEnable: true, rotateEnable: true });
     });
 
     return { mapContainer, tooltipVisible, tooltipContent, tooltipX, tooltipY };
@@ -96,7 +111,7 @@ export default {
 <style>
 .map-container {
   width: 100%;
-  height: 1350px;
+  height: 1000px;
 }
 
 .tooltip {
@@ -109,5 +124,12 @@ export default {
   pointer-events: none;
   z-index: 1000;
   white-space: nowrap;
+}
+
+.chart-container {
+  width: 100%;
+  /* Set a max-width to prevent extreme stretching if desired */
+  /* max-width: 800px; */
+  margin: 0 auto;
 }
 </style>

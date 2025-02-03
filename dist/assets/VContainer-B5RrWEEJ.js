@@ -1,0 +1,1 @@
+import{g as n,p as o,aD as r,j as l,k as i,n as c,x as u}from"./index-CBMmtDA9.js";const m=o({fluid:{type:Boolean,default:!1},...u(),...c()},"VContainer"),C=n()({name:"VContainer",props:m(),setup(e,a){let{slots:s}=a;const{rtlClasses:t}=r();return l(()=>i(e.tag,{class:["v-container",{"v-container--fluid":e.fluid},t.value,e.class],style:e.style},s)),{}}});export{C as V};
