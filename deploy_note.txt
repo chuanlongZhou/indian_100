@@ -1,1 +1,3 @@
-    "@rollup/rollup-linux-x64-gnu": "^4.34.0" -- is needed for online deploy, remove it for local development
+1. "@rollup/rollup-linux-x64-gnu": "^4.34.0" -- is needed for online deploy, remove it for local development
+2. beware of the chart width and location !!
+3. aggregate the TS data
