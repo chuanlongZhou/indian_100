@@ -1,0 +1,1 @@
+    "@rollup/rollup-linux-x64-gnu": "^4.34.0" -- is needed for online deploy, remove it for local development

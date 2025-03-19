@@ -5,7 +5,7 @@
 
     <v-row class="px-0">
       <v-col cols="12">
-        <DataVizTS :comparisonYears="[2020, 2021, 2022]"/>
+        <DataVizTS :comparisonYears="[2020, 2021, 2022]" :max_width="1200"/>
       </v-col>
     </v-row>
 

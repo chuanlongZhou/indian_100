@@ -25,6 +25,7 @@ const props = defineProps({
     // TODO: the aggregation mode is not developed yet
     aggregationMode: { type: String, default: "daily" }, // daily, 10-day, 15-day 
     heigth: { type: Number, default: 400 },
+    max_width : { type: Number, default: 800 }
 });
 
 const csvUrl = ref(props.csvUrl);
@@ -42,6 +43,8 @@ const comparisonYears = ref(props.comparisonYears);
 const yearAvailable = ref([]);
 const aggregationMode = ref(props.aggregationMode);
 const showOption = ref(true);
+
+const max_width = ref(props.max_width);
 
 const modeIcons = {
     "trend": "mdi-trending-up",
@@ -350,7 +353,9 @@ onMounted(fetchData);
         </v-row>
 
         <v-row>
-            <v-chart :option="chartOptions" style="height: 400px; width: 100%"></v-chart>
+            <div :style="{ maxWidth: max_width + 'px', margin: '0 auto' }">
+                <v-chart :option="chartOptions" style="height: 400px; width: 100%"></v-chart>
+            </div>
         </v-row>
 
         <!-- <v-row>
@@ -392,11 +397,10 @@ onMounted(fetchData);
                 </v-btn-toggle>
             </v-col>
 
-            <v-col cols="6"  align="center">
+            <v-col cols="6" align="center">
                 <!-- Year Selection -->
-                <v-select v-model="comparisonYears" :items="yearAvailable" label="Year for Comparison" multiple variant="underlined"
-                density="compact" chips 
-                color="#0f3e8a" >
+                <v-select v-model="comparisonYears" :items="yearAvailable" label="Year for Comparison" multiple
+                    variant="underlined" density="compact" chips color="#0f3e8a">
                 </v-select>
             </v-col>
         </v-row>
