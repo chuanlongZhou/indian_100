@@ -17,6 +17,7 @@ declare module 'vue' {
     DataVizTextReport: typeof import('./src/components/DataVizTextReport.vue')['default']
     DataVizTotaBar: typeof import('./src/components/DataVizTotaBar.vue')['default']
     DataVizTotalTS: typeof import('./src/components/DataVizTotalTS.vue')['default']
+    DataVizTS: typeof import('./src/components/DataVizTS.vue')['default']
     GetData: typeof import('./src/components/GetData.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
     LinePlot: typeof import('./src/components/LinePlot.vue')['default']

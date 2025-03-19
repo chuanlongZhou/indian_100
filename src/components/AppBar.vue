@@ -51,6 +51,12 @@
       :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
       variant="plain"
       >Data</v-btn>
+      <v-btn text to="/data_CM"
+      tile
+      class="btn_appbar"
+      :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
+      variant="plain"
+      >City Data</v-btn>
     </v-app-bar>
 
   </v-hover>
