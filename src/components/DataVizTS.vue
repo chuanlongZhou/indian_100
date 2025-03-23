@@ -8,8 +8,8 @@ import { CanvasRenderer } from "echarts/renderers";
 import { VContainer, VRow, VCol, VCard, VBtn, VSelect } from "vuetify/components";
 import { fetch_ts_Data } from '@/utils/fetch_data.js';
 import { sector_mapping, modeIcons } from '@/utils/style_maps.js';
-import { cm_city_lines } from "@/utils/echart_line.js";
-// import { cm_city_lines } from "@/utils/echart_line_agg.js";
+// import { cm_city_lines } from "@/utils/echart_line.js";
+import { cm_city_lines } from "@/utils/echart_line_agg.js";
 
 // echarts.use([CustomChart]);
 
@@ -24,7 +24,7 @@ const props = defineProps({
     unit: { type: String, default: "Mt" },
     comparisonYears: { type: Array, default: () => [] },
     // TODO: the aggregation mode is not developed yet
-    aggregationMode: { type: String, default: 7 }, // daily, 10-day, 15-day 
+    aggregationMode: { type: String, default: 5 }, // daily, 10-day, 15-day 
     heigth: { type: Number, default: 400 },
     enableMap: { type: Boolean, default: false },
     city_name: { type: String, default: "Whole India" }

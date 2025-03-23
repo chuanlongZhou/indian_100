@@ -70,7 +70,7 @@ function buildTrendSeries(data, selectedColumns, sector_mapping) {
     return selectedColumns.map(col => ({
         name: col,
         type: "line",
-        data: data.map(d => [d.date, d[col]]),
+        data: data.map(d => [d.date, d[col].toFixed(2)]),
         emphasis: { focus: "series" },
         itemStyle: { color: sector_mapping[col].Color || "#000" }
     }));
@@ -86,7 +86,7 @@ function buildEvolutionSeries(data, years, selectedColumns, sector_mapping) {
     const series = sortedYears.map((year, idx) => ({
         name: year.toString(),
         type: "line",
-        data: data.filter(d => d.year === String(year)).map(d => [d.dayOfYear, d[col]]),
+        data: data.filter(d => d.year === String(year)).map(d => [d.dayOfYear, d[col].toFixed(2)]),
         lineStyle: {
             width: [1, 2, 3][idx - (sortedYears.length - 3)] || 1,
             opacity: idx === sortedYears.length - 1 ? 1 : 0.8,
@@ -123,7 +123,7 @@ function buildVariationSeries(data, years, selectedColumns, sector_mapping) {
             name: recentYear.toString(),
             type: 'line',
             step: 'middle',
-            data: recentValues,
+            data: recentValues.map(value => value.toFixed(2)),
             symbol: 'none',
             itemStyle: {
                 width: 0.25,
@@ -134,7 +134,7 @@ function buildVariationSeries(data, years, selectedColumns, sector_mapping) {
             name: olderYear.toString(),
             type: 'line',
             step: 'middle',
-            data: olderValues,
+            data: olderValues.map(value => value.toFixed(2)),
             symbol: 'none',
             itemStyle: {
                 width: 0.1,
@@ -148,7 +148,7 @@ function buildVariationSeries(data, years, selectedColumns, sector_mapping) {
             silent: true,
             itemStyle: { borderColor: "transparent", color: "transparent" },
             emphasis: { itemStyle: { borderColor: "transparent", color: "transparent" } },
-            data: baseValues
+            data: baseValues.map(value => value.toFixed(2))
         },
         {
             name: "Increase",

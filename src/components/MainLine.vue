@@ -1,7 +1,6 @@
 <template>
   <v-hover v-slot="{ isHovering, props }">
     <v-card v-bind="props" :elevation="isHovering ? 5 : 0" class="mb-10 pt-10 pa-10">
-      <!-- <v-chart class="chart" :option="option" autoresize /> -->
       <LinePlot
         :title="'Annual Fossil CO₂ Emissions (MtCO₂)'"
         :xAxisData="xAxisData"

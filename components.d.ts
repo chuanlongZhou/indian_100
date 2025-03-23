@@ -26,6 +26,7 @@ declare module 'vue' {
     MainLine: typeof import('./src/components/MainLine.vue')['default']
     MainMap: typeof import('./src/components/MainMap.vue')['default']
     MainMethodology: typeof import('./src/components/MainMethodology.vue')['default']
+    MainPlotNew: typeof import('./src/components/MainPlotNew.vue')['default']
     MainReport: typeof import('./src/components/MainReport.vue')['default']
     MainText: typeof import('./src/components/MainText.vue')['default']
     'MainText(sticky_nav)': typeof import('./src/components/MainText(sticky_nav).vue')['default']
