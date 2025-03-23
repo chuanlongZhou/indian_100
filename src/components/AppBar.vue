@@ -45,13 +45,13 @@
       :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
       variant="plain"
       >Methodology</v-btn>
-      <v-btn text to="/data"
+      <!-- <v-btn text to="/data"
       tile
       class="btn_appbar"
       :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"
       variant="plain"
-      >Data</v-btn>
-      <v-btn text to="/data_CM"
+      >Data</v-btn> -->
+      <v-btn text to="/city_date"
       tile
       class="btn_appbar"
       :class="isHovering || not_top ? 'text-grey-darken-4' : 'text-grey-lighten-4'"

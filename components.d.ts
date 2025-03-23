@@ -19,6 +19,8 @@ declare module 'vue' {
     DataVizTotalTS: typeof import('./src/components/DataVizTotalTS.vue')['default']
     DataVizTS: typeof import('./src/components/DataVizTS.vue')['default']
     GetData: typeof import('./src/components/GetData.vue')['default']
+    GridMapEchart: typeof import('./src/components/GridMapEchart.vue')['default']
+    GridMapMapbox: typeof import('./src/components/GridMapMapbox.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
     LinePlot: typeof import('./src/components/LinePlot.vue')['default']
     MainLine: typeof import('./src/components/MainLine.vue')['default']

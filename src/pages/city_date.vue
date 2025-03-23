@@ -1,8 +1,8 @@
 <template>
   <v-container>
     <Hero :main="'CHETNA Emission Dataset'" :sub="'Data Summary'" />
-    <!-- Hero Section -->
 
+    <!-- Hero Section -->
     <v-row class="px-0">
       <v-col cols="12">
         <DataVizTS :comparisonYears="[2020, 2021, 2022]" :max_width="1200"/>
@@ -10,14 +10,17 @@
     </v-row>
 
     <v-row>
-      <v-col v-for="city in cityNames" cols="6">
+      <v-col v-for="city in cityNames" cols="6" class="px-0 mx-0">
         {{ city }}
         <DataVizTS
         :csv-url="`${baseUrl}/summary_time_series/${city}.csv`"
-        :mode="'evolution'"
+        :mode="'variation'"
         :selected-columns="['total']"
         :unit="'kt'"
-        :comparisonYears="[2020, 2021, 2022]"
+        :comparisonYears="[2021, 2022]"
+        :heigth="350"
+        :enableMap="true"
+        :city_name="city"
         />
         </v-col>
     </v-row>
